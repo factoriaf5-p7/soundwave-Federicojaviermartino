@@ -16,8 +16,14 @@ margin-bottom: 500px;
     display:flex;
     flex-direction: column;
     margin-top: 50px;
-    width:20px;
+    width:200px;
+    margin-left:200px;
 }
+.text {
+    display:flex;
+    margin-top: 50px;
+}
+
 `
 
 
@@ -26,7 +32,9 @@ export function Join() {
     return (
         <>
         <Header>
+            <div className="text">
             <h1>Join the fun.</h1>
+            </div>
             <div className='form'>
                 <form>
                     <ul>
