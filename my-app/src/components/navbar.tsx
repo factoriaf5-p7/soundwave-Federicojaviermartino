@@ -13,6 +13,7 @@ display: flex;
 & ul {
     display:flex;
     margin-left:800px;
+    white-space:20px;
 }
 `
 
