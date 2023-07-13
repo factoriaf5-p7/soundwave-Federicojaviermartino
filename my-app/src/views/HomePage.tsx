@@ -23,7 +23,7 @@ const Father = styled.div`
 display:flex;
 `
 
-export function HomePage(props: any) {
+export function HomePage() {
 
   return (
     <>

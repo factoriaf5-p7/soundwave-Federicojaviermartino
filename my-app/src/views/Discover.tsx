@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+// import { createGlobalStyle } from 'styled-components'
 import { styled } from "styled-components";
 
 
@@ -10,11 +10,10 @@ margin-left:200px;
 margin-bottom:200px;
 & p {
   display:flex;
-  margin-top
 }
-.content {
-  flex-direction: column;
-  display:flex;
+& .content {
+  /* flex-direction: column; */
+  display: flex;
 }
 `
 
@@ -53,9 +52,9 @@ export function Discover() {
               By joining you can benefit by listening to the latest albums released.
             </p>
           </div>
-        <img src='covers.jpg'></img>
-      </Section>
-    </Main >
+          <img src='covers.jpg'></img>
+        </Section>
+      </Main >
     </>
   )
 }
