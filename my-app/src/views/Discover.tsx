@@ -12,7 +12,7 @@ margin-bottom:200px;
   display:flex;
 }
 & .content {
-  /* flex-direction: column; */
+  flex-direction: column;
   display: flex;
 }
 `
